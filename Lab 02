@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #define MAX_SIZE 10
+
 // function copy_input
 char * copy_input(char *user_supplied_string){
  int i, dst_index;
@@ -26,6 +27,7 @@ char * copy_input(char *user_supplied_string){
  }
  return dst_buf;
 }
+
 // function main
 int main(int argc, char **argv) {
  copy_input(argv[1]);
